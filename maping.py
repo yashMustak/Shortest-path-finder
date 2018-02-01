@@ -113,7 +113,7 @@ node = startNode;
 dist[startNode]=0
 currDist = 0
 
-if(startNode==endNode):
+if(d['func'](startn, endn)<d['func'](startn, nodes[startNode])):
     cv2.line(img, startn, endn, (0,0,255), 2)
 else:
     while(node!=endNode):
