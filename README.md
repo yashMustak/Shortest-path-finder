@@ -1,5 +1,7 @@
 #Shortest-path-finder
+
 Prerequsite
+  python 3.6
   Numpy
   Opencv
 
